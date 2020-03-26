@@ -16,7 +16,7 @@ class App extends Component {
   tate = {};
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="app">
           <header>{<Header />}</header>
           <div id="main">

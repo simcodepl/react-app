@@ -10,7 +10,7 @@ const Footer = () => {
         path="/:page"
         render={props => {
           console.log(props);
-          return <p>Jesteś na stronie: {props.match.params.page}</p>;
+          return <p>2 Jesteś na stronie: {props.match.params.page}</p>;
         }}
       />
     </>
